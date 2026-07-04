@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="7A;At]Hg:xaphz/s,n=v">mySprite</variable><variable type="KIND_SpriteKind" id="n6%6$$c{8mFYST{@OCaz">Player</variable><variable type="KIND_SpriteKind" id="X?pd6gjHH,0Vf6Nm`KNa">Projectile</variable><variable type="KIND_SpriteKind" id="$(P~ww-P^#j^gPw+)|;n">Food</variable><variable type="KIND_SpriteKind" id="6Z.`j)g#{VK@K[UY0uFk">Enemy</variable></variables><block type="pxt-on-start" id="MEROLsA`P6E]E#Q]nO%k" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="Z(^nmtHXG0uJVof`BuB5"><field name="VAR" id="7A;At]Hg:xaphz/s,n=v">mySprite</field><value name="VALUE"><shadow type="math_number" id="ed!x@68f@DL|d$S;G]_f"><field name="NUM">0</field></shadow><block type="spritescreate" id="f_Xbg*8-PXULK*qDiSGj"><value name="img"><shadow type="screen_image_picker" id="2QPGjZOG`?).+bCB6N2l"><field name="img">img`
+. . . . 2 2 2 2 . . . . 
+. . . 2 2 2 2 2 2 . . . 
+. . 2 2 2 2 2 2 2 2 . . 
+. . 2 2 9 9 9 9 2 2 . . 
+. . 2 2 9 9 9 9 2 2 . . 
+. . 2 2 2 2 2 2 2 2 . . 
+. . 2 2 2 2 2 2 2 2 . . 
+. . 2 2 2 2 2 2 2 2 . . 
+. . 2 2 2 2 2 2 2 2 . . 
+. . 2 2 2 2 2 2 2 2 . . 
+. . 2 . . . . . . 2 . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ZS[Rz,/s3!{B$YAn3hH5"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="~W_PPVa^_nNX8:w~So?t"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="_U3hGge(CEBwHb2Me28,"><field name="VAR" id="7A;At]Hg:xaphz/s,n=v">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="EQsADAj0o{r(W_KGHq{f"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="Xx]tb{hycy}foX%qPaqW"><field name="speed">100</field></shadow></value><next><block type="spritesetsetstayinscreen" id=":fr*QV;G/qAYpabShN}/"><value name="sprite"><block type="variables_get" id="KQp;RNU2.Gc]_bdLVP3="><field name="VAR" id="7A;At]Hg:xaphz/s,n=v">mySprite</field></block></value><value name="on"><shadow type="toggleOnOff" id="yprW7W#w=5g?rNRud[c?"><field name="on">true</field></shadow></value></block></next></block></next></block></statement></block></xml>
